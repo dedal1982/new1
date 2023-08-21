@@ -2795,6 +2795,7 @@ template {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
 }
 .promotions__item{
     width: 403px;
@@ -2840,4 +2841,5 @@ template {
     top: 12px;
     right: 28px;
     display: flex;
+    gap: 4px;
 }
