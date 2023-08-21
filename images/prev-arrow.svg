@@ -1,0 +1,11 @@
+<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icons">
+<rect x="36" width="36" height="36" rx="12" transform="rotate(90 36 0)" fill="#3A3A3A" fill-opacity="0.03"/>
+<g id="Group">
+<g id="Regular">
+<path id="Shape" d="M21 24L15.1205 18.2827C15.0434 18.2077 15 18.106 15 18C15 17.894 15.0434 17.7923 15.1205 17.7173L21 12" stroke="#3A3A3A" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<rect x="35.75" y="0.25" width="35.5" height="35.5" rx="11.75" transform="rotate(90 35.75 0.25)" stroke="#474747" stroke-opacity="0.02" stroke-width="0.5"/>
+</g>
+</svg>
