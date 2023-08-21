@@ -2826,6 +2826,18 @@ template {
 }
 .promotions__item-price{
     position: absolute;
-    bottom: 30px;
+    bottom: 42px;
     left: 32px;
+}
+.promotions__item-span{
+    color: #19191C;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.5px;
+}
+.promotions__item-label{
+    position: absolute;
+    top: 12px;
+    right: 28px;
+    display: flex;
 }

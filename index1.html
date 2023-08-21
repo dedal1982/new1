@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Проект :3</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <script
+      src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=c69fc0c4-1138-440a-a6d2-d7f809bbd0c6"
+      type="text/javascript"
+    ></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="menu__burger">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="Icons">
+                <g id="Group">
+                  <g id="navigation-menu">
+                    <path
+                      id="Shape"
+                      d="M5 16.4517H19"
+                      stroke="#1F1F39"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      id="Shape_2"
+                      d="M5 12.144H19"
+                      stroke="#1F1F39"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      id="Shape_3"
+                      d="M5 7.83633H19"
+                      stroke="#1F1F39"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </div>
+          <img class="header__logo" src="./images/logo.svg" alt="" />
+          <nav class="menu">
+            <li class="menu__item">
+              <a class="menu__link" href="#">Акции</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link menu__adress" href="#">Адреса</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link menu__about" href="#">О нас</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Дистрибьюция</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Академия</a>
+            </li>
+          </nav>
+          <div class="header__contacts">
+            <div class="header__communication">
+              <a class="header__phone" href="tel:+8127010010">
+                (812) 701 - 00 - 10
+              </a>
+              <a class="header__social" href="#">
+                <img class="header__vk" src="./images/vk-icon.svg" alt="" />
+              </a>
+              <a class="header__social" href="#">
+                <img class="header__tg" src="./images/tg-icon.svg" alt="" />
+              </a>
+            </div>
+            <button class="header__button">Записаться</button>
+          </div>
+        </div>
+        <div class="header__search">
+          <button class="header__popup">Каталог услуг</button>
+          <input class="header__input" placeholder="Найти услугу" type="text" />
+          <svg
+            class="header__icon"
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M9.0625 15.625C12.6869 15.625 15.625 12.6869 15.625 9.0625C15.625 5.43813 12.6869 2.5 9.0625 2.5C5.43813 2.5 2.5 5.43813 2.5 9.0625C2.5 12.6869 5.43813 15.625 9.0625 15.625Z"
+              stroke="#94A3B8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M18.4379 18.4379L13.7329 13.7329"
+              stroke="#94A3B8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+
+        <div class="header__nav">
+          <ul class="header__nav-list">
+            <li>
+              <a class="header__nav-link" href="#">OLA</a>
+            </li>
+            <li>
+              <a class="header__nav-link" href="#">Услуги</a>
+            </li>
+            <li>
+              <a class="header__nav-link" href="#">Парикмахерские услуги</a>
+            </li>
+            <li>
+              <a class="header__nav-link"  href="#">Причёски</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+
+      <section class="hairstyles">
+        <div class="container">
+            <div class="hairstyles__inner">
+              <h1 class="hairstyles__title">Праздничные причёски</h1>
+              <div class="hairstyles__item-box">
+                <div class="hairstyles__item">
+                  <img class="hairstyles__image" src="./images1/crypto-currency-peercoin.svg" alt="картинка">
+                  <div class="hairstyles__item-list">
+                    <ul class="hairstyles__item-text">
+                      <li>
+                        <h6 class="hairstyles__text">От 350 ₽</h6>
+                      </li>
+                      <li>
+                        <span class="hairstyles__span">Акции (12)</span>
+                      </li>
+                    </ul>
+                    <a class="hairstyles__link" href="#">Смотреть все акции и цены</a>
+                  </div>
+                </div>
+                <div class="hairstyles__item">
+                  <img class="hairstyles__image" src="./images1/programming-user-chat-woman.svg" alt="картинка">
+                  <div class="hairstyles__item-list">
+                    <ul class="hairstyles__item-text">
+                      <li>
+                        <h6 class="hairstyles__text">Парикмахер-стилист</h6>
+                      </li>
+                    </ul>
+                    <a class="hairstyles__link" href="#">Бесплатная консультация</a>
+                  </div>
+                </div>
+                <div class="hairstyles__item">
+                  <img class="hairstyles__image" src="./images1/rating-star-bubble-1.svg" alt="картинка">
+                  <div class="hairstyles__item-list">
+                    <a class="hairstyles__link" href="#">Бесплатная трихологическая</a>
+                    <a class="hairstyles__link" href="#">диагностика</a>
+                  </div>
+                </div>
+                <div class="hairstyles__item">
+                  <img class="hairstyles__image" src="./images1/multiple-circle.svg" alt="картинка">
+                  <div class="hairstyles__item-list">
+                    <ul class="hairstyles__item-text">
+                      <li>
+                        <h6 class="hairstyles__text">Более 100 опытных стилистов-парикмахеров</h6>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="hairstyles__item">
+                  <img class="hairstyles__image" src="./images1/body-care-lotion.svg" alt="картинка">
+                  <div class="hairstyles__item-list">
+                    <ul class="hairstyles__item-text">
+                      <li>
+                        <h6 class="hairstyles__text">Профессиональная косметика</h6>
+                      </li>
+                    </ul>
+                    <p>по лучшим ценам в городе</p>
+                  </div>
+                </div>
+                <div class="hairstyles__item">
+                  <img class="hairstyles__image" src="./images1/calendar-refresh.svg" alt="картинка">
+                  <div class="hairstyles__item-list">
+                    <ul class="hairstyles__item-text">
+                      <li>
+                        <h6 class="hairstyles__text">Рекомендуемая периодичность:</h6>
+                      </li>
+                    </ul>
+                    <p>2-3 раза в месяц</p>
+                  </div>
+                </div>
+              </div>
+              <button class="hairstyles__button" type="button">Записаться на праздичную причёску</button>
+            </div>
+          <div class="scrollerWrapper">
+            <div class="scroller">
+              <a href="#">Акции</a>
+              <a href="#">Цены</a>
+              <a href="#">Бесплантные консультации</a>
+              <a href="#">Наши работы</a>
+              <a href="#">в 15 центрах OLA</a>
+              <a href="#">Отзывы</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="achievements">
+        <div class="container">
+          <div class="achievements__wrapper">
+            <div class="achievements__item-box">
+              <ul class="achievements__item-list">
+                <li>
+                  <img src="./images1/№ 1.svg" alt="иконка">
+                </li>
+                <li>
+                  <h6 class="hairstyles__text">Лидер рынка</h6>
+                </li>
+                <li>
+                  <p class="hairstyles__descr">Крупнейшая по обороту сеть в Санкт-Петербурге</p>
+                </li>
+              </ul>
+            </div>
+            <div class="achievements__item-box">
+              <ul class="achievements__item-list">
+                <li>
+                  <img src="./images1/300 000+.svg" alt="иконка">
+                </li>
+                <li>
+                  <h6 class="hairstyles__text">Довольных клиентов</h6>
+                </li>
+                <li>
+                  <p class="hairstyles__descr">Запишись на бесплатную консультацию к любому специалисту и убедись лично</p>
+                </li>
+              </ul>
+            </div>
+            <div class="achievements__item-box">
+              <ul class="achievements__item-list">
+                <li>
+                  <img src="./images1/200+.svg" alt="иконка">
+                </li>
+                <li>
+                  <h6 class="hairstyles__text">Профессионалов</h6>
+                </li>
+                <li>
+                  <p class="hairstyles__descr">Опытные титулированные специалисты, средний стаж - 14 лет</p>
+                </li>
+              </ul>
+            </div>
+            <div class="achievements__item-box">
+              <ul class="achievements__item-list">
+                <li>
+                  <img src="./images1/11+.svg" alt="иконка">
+                </li>
+                <li>
+                  <h6 class="hairstyles__text">Центров красоты</h6>
+                </li>
+                <li>
+                  <p class="hairstyles__descr">Во всех районах Петербурга, с
+                    едиными стандартами качества</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services">
+        <div class="container">
+          <h3 class="services__title title">К вашим услугам</h3>
+          <div class="services__items services__swiper swiper">
+            <div class="swiper-wrapper">
+              <div class="services__swiper-slide swiper-slide">
+                <div class="services__item">
+                  <div class="services__popup services__popup--first">
+                    <a
+                      class="services__link"
+                      href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                    >
+                      <img
+                        class="services__img"
+                        src="./images/popup.svg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <p class="services__descr">
+                    OLA - сеть салонов красоты №1. К вашим услугам: 3-х этапная
+                    стерилиз...
+                  </p>
+                </div>
+              </div>
+              <div class="services__swiper-slide swiper-slide">
+                <div class="services__item">
+                  <div class="services__popup services__popup--first">
+                    <a
+                      class="services__link"
+                      href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                    >
+                      <img
+                        class="services__img"
+                        src="./images/popup.svg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <p class="services__descr">
+                    OLA - сеть салонов красоты №1. К вашим услугам: 3-х этапная
+                    стерилиз...
+                  </p>
+                </div>
+              </div>
+              <div class="services__swiper-slide swiper-slide">
+                <div class="services__item">
+                  <div class="services__popup services__popup--first">
+                    <a
+                      class="services__link"
+                      href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                    >
+                      <img
+                        class="services__img"
+                        src="./images/popup.svg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <p class="services__descr">
+                    OLA - сеть салонов красоты №1. К вашим услугам: 3-х этапная
+                    стерилиз...
+                  </p>
+                </div>
+              </div>
+              <div class="services__swiper-slide swiper-slide">
+                <div class="services__item">
+                  <div class="services__popup services__popup--first">
+                    <a
+                      class="services__link"
+                      href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                    >
+                      <img
+                        class="services__img"
+                        src="./images/popup.svg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <p class="services__descr">
+                    OLA - сеть салонов красоты №1. К вашим услугам: 3-х этапная
+                    стерилиз...
+                  </p>
+                </div>
+              </div>
+              <div class="services__swiper-slide swiper-slide">
+                <div class="services__item">
+                  <div class="services__popup services__popup--first">
+                    <a
+                      class="services__link"
+                      href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                    >
+                      <img
+                        class="services__img"
+                        src="./images/popup.svg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <p class="services__descr">
+                    OLA - сеть салонов красоты №1. К вашим услугам: 3-х этапная
+                    стерилиз...
+                  </p>
+                </div>
+              </div>
+              <div class="services__swiper-slide swiper-slide">
+                <div class="services__item">
+                  <div class="services__popup services__popup--first">
+                    <a
+                      class="services__link"
+                      href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                    >
+                      <img
+                        class="services__img"
+                        src="./images/popup.svg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <p class="services__descr">
+                    OLA - сеть салонов красоты №1. К вашим услугам: 3-х этапная
+                    стерилиз...
+                  </p>
+                </div>
+              </div>
+              <div class="services__swiper-slide swiper-slide">
+                <div class="services__item">
+                  <div class="services__popup services__popup--first">
+                    <a
+                      class="services__link"
+                      href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                    >
+                      <img
+                        class="services__img"
+                        src="./images/popup.svg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <p class="services__descr">
+                    OLA - сеть салонов красоты №1. К вашим услугам: 3-х этапная
+                    стерилиз...
+                  </p>
+                </div>
+              </div>
+              <div class="services__swiper-slide swiper-slide">
+                <div class="services__item">
+                  <div class="services__popup services__popup--first">
+                    <a
+                      class="services__link"
+                      href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                    >
+                      <img
+                        class="services__img"
+                        src="./images/popup.svg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <p class="services__descr">
+                    OLA - сеть салонов красоты №1. К вашим услугам: 3-х этапная
+                    стерилиз...
+                  </p>
+                </div>
+              </div>
+              <div class="services__swiper-slide swiper-slide">
+                <div class="services__item">
+                  <div class="services__popup services__popup--first">
+                    <a
+                      class="services__link"
+                      href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                    >
+                      <img
+                        class="services__img"
+                        src="./images/popup.svg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <p class="services__descr">
+                    OLA - сеть салонов красоты №1. К вашим услугам: 3-х этапная
+                    стерилиз...
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="trends">
+        <div class="container">
+          <h3 class="trends__title title">Тренды 2022 года</h3>
+          <div class="trends__subtitle">от команды OLA</div>
+          <div class="trends__wrapper">
+            <div class="trends__slider swiper">
+              <div class="trends__box swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./images/trends-1.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/trends-1.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/trends-1.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/trends-1.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/trends-1.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/trends-1.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/trends-1.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/trends-1.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/trends-1.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+          <p class="trends__descr">
+            Главная идея образа — естественность и самобытность. В макияже мы
+            использовали природные цвета, а эффект перламутра и влажной кожи
+            придают лицу сияние и чистоту.
+          </p>
+          <p class="trends__descr">
+            Что касается волос, то мы представили, какими бы они могли быть у
+            воинственных амазонок. Поэтому мы использовали авторскую технику –
+            закручивали волосы в мелкие жгуты, напоминающие дреды.
+          </p>
+          <div class="link__wrapper">
+            <a class="trends__link" href="#">Подробнее о трендах 2022</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="promotions">
+        <div class="container">
+          <div class="price__wrapper">
+            <h3 class="price__title promotions__title title">Акции и спец. предложения</h3>
+            <p class="price__subtitle promotions__subtitle">В центрах красоты OLA вы всегда сможете найти выгодное для вас предложение</p>
+            <div class="promotions__inner">
+              <div class="promotions__item">
+                <div class="promotions__item-label">
+                  <img src="./images1/hit.svg" alt="лейил">
+                  <img src="./images1/new.svg" alt="лейил">
+                </div>
+                <div class="promotions__item-text">
+                  <h5 class="promotions__item-title">Увеличение губ</h5>
+                  <p class="promotions__item-subtitle">+ бесплатная консультация врача-косметолого</p>
+                </div>
+                <div class="promotions__item-price">
+                  <p class="promotions__item-subtitle">в 4 центрах OLA</p>
+                  <span class="promotions__item-span">11 990 ₽</span>
+                </div>
+                <img src="./images1/1.svg" alt="картинка">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="price">
+        <div class="container">
+          <div class="price__wrapper">
+            <h3 class="price__title title">Цены</h3>
+            <p class="price__subtitle">Стоимость окрашивания указана без учета стоимости красителя. Дополнительно необходима услуга с сушкой волос (сушка или стрижка или укладка)</p>
+            <div class="price__top">
+              <div class="price__item">
+                <a class="hairstyles__link price__item-link" href="#">Цветовые эффекты</a>
+                <h6 class="price__item-title">1 категория сложности (растяжка цвета, щаутущ, омбре, балаяж, малирование)</h6>
+              </div>
+              <div class="price__item-stylist">
+                <p class="hairstyles__descr">Стилист</p>
+                <p class="hairstyles__descr">Топ-стилист</p>
+              </div>
+            </div>
+            <div class="price__list">
+              <h6 class="price__text">Волосы выше ушей</h6>
+              <div class="price__item-span">
+                <span class="price__item-title price__span">2900 ₽</span>
+                <span class="price__item-title price__span">2900 ₽</span>
+              </div>
+            </div>
+            <div class="price__list">
+              <h6 class="price__text">Волосы выше ушей</h6>
+              <div class="price__item-span">
+                <span class="price__item-title price__span">2900 ₽</span>
+                <span class="price__item-title price__span">2900 ₽</span>
+              </div>
+            </div>
+            <div class="price__list">
+              <h6 class="price__text">Волосы выше ушей</h6>
+              <div class="price__item-span">
+                <span class="price__item-title price__span">2900 ₽</span>
+                <span class="price__item-title price__span">2900 ₽</span>
+              </div>
+            </div>
+            <div class="price__list">
+              <h6 class="price__text">Волосы выше ушей</h6>
+              <div class="price__item-span">
+                <span class="price__item-title price__span">2900 ₽</span>
+                <span class="price__item-title price__span">2900 ₽</span>
+              </div>
+            </div>
+            <div class="price__top">
+              <div class="price__item">
+                <h6 class="price__item-title">2 категория сложности (airtouch)</h6>
+              </div>
+              <div class="price__item-stylist">
+                <p class="hairstyles__descr">Стилист</p>
+                <p class="hairstyles__descr">Топ-стилист</p>
+              </div>
+            </div>
+            <div class="price__list">
+              <h6 class="price__text">Волосы выше ушей</h6>
+              <div class="price__item-span">
+                <span class="price__item-title price__span">2900 ₽</span>
+                <span class="price__item-title price__span">2900 ₽</span>
+              </div>
+            </div>
+            <div class="price__list">
+              <h6 class="price__text">Волосы выше ушей</h6>
+              <div class="price__item-span">
+                <span class="price__item-title price__span">2900 ₽</span>
+                <span class="price__item-title price__span">2900 ₽</span>
+              </div>
+            </div>
+            <div class="price__list">
+              <h6 class="price__text">Волосы выше ушей</h6>
+              <div class="price__item-span">
+                <span class="price__item-title price__span">2900 ₽</span>
+                <span class="price__item-title price__span">2900 ₽</span>
+              </div>
+            </div>
+            <div class="price__top">
+              <div class="price__item">
+                <h6 class="price__item-title">3 категория сложности (американский блонд)</h6>
+              </div>
+              <div class="price__item-stylist">
+                <p class="hairstyles__descr">Стилист</p>
+                <p class="hairstyles__descr">Топ-стилист</p>
+              </div>
+            </div>
+            <div class="price__list">
+              <h6 class="price__text">Волосы выше ушей</h6>
+              <div class="price__item-span">
+                <span class="price__item-title price__span">2900 ₽</span>
+                <span class="price__item-title price__span">2900 ₽</span>
+              </div>
+            </div>
+            <div class="price__list">
+              <h6 class="price__text">Волосы выше ушей</h6>
+              <div class="price__item-span">
+                <span class="price__item-title price__span">2900 ₽</span>
+                <span class="price__item-title price__span">2900 ₽</span>
+              </div>
+            </div>
+            <div class="price__list">
+              <h6 class="price__text">Волосы выше ушей</h6>
+              <div class="price__item-span">
+                <span class="price__item-title price__span">2900 ₽</span>
+                <span class="price__item-title price__span">2900 ₽</span>
+              </div>
+            </div>
+            <div class="price__list-all">
+              <a class="price__list-link" href="#">Показать все цены</a>
+            </div>
+            
+            
+          </div>
+        </div> 
+      </section>
+
+      <section class="feedback">
+        <h3 class="feedback__title title">Отзывы клиентов</h3>
+        <div class="feedback__topBlock">
+          <div class="topBlock__item">Средняя оценка</div>
+          <div class="topBlock__item">
+            <div class="img">
+              <img src="images/star.svg" alt="star" />
+              <img src="images/star.svg" alt="star" />
+              <img src="images/star.svg" alt="star" />
+              <img src="images/star.svg" alt="star" />
+              <img src="images/star.svg" alt="star" />
+            </div>
+            <p>из 15-ти оценок</p>
+          </div>
+          <div class="topBlock__item">
+            <a href="#">Оставить отзыв</a>
+          </div>
+        </div>
+        <div class="swiper feedback__slider feedback__swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="text__block">
+                <p>
+                  Elos-эпиляцию мне порекомендовала моя подруга. Я как раз
+                  хотела сходить на подобную процедуру и устранить проблему
+                  нежелательных волос в зоне бикини. Не раздумывая записалась и
+                  уже прошла курс из 12 сеансов. Эффект поразительный, кожа
+                  гладкая, я довольна. Кстати, сама процедура безболезненная,
+                  всё оборудование качественное...
+                </p>
+                <div class="text__block_info">
+                  <div class="item">
+                    <img src="images/vk.svg" alt="vk" />
+                    <a href="#">Вконтакте</a>
+                  </div>
+                  <div class="item">12 марта, 2021</div>
+                </div>
+              </div>
+              <div class="person__block">
+                <div class="img__block">
+                  <img src="images/person_1.svg" alt="" />
+                </div>
+                <div class="name__block">
+                  <div class="name__wrapper">
+                    <p class="name">Ангелина Франчук</p>
+                    <div class="rating">
+                      <img src="images/star.svg" alt="rating" />
+                      <img src="images/star.svg" alt="rating" />
+                      <img src="images/star.svg" alt="rating" />
+                      <img src="images/star.svg" alt="rating" />
+                      <img src="images/star.svg" alt="rating" />
+                    </div>
+                  </div>
+                  <p class="help__block">
+                    Услуга:
+                    <a href="#">ELOS-эпиляция</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="text__block">
+                <p>
+                  Elos-эпиляцию мне порекомендовала моя подруга. Я как раз
+                  хотела сходить на подобную процедуру и устранить проблему
+                  нежелательных волос в зоне бикини. Не раздумывая записалась и
+                  уже прошла курс из 12 сеансов. Эффект поразительный, кожа
+                  гладкая, я довольна. Кстати, сама процедура безболезненная,
+                  всё оборудование качественное...
+                </p>
+                <div class="text__block_info">
+                  <div class="item">
+                    <img src="images/vk.svg" alt="vk" />
+                    <a href="#">Вконтакте</a>
+                  </div>
+                  <div class="item">12 марта, 2021</div>
+                </div>
+              </div>
+              <div class="person__block">
+                <div class="img__block">
+                  <img src="images/person_1.svg" alt="" />
+                </div>
+                <div class="name__block">
+                  <div class="name__wrapper">
+                    <p class="name">Ангелина Франчук</p>
+                    <div class="rating">
+                      <img src="images/star.svg" alt="rating" />
+                      <img src="images/star.svg" alt="rating" />
+                      <img src="images/star.svg" alt="rating" />
+                      <img src="images/star.svg" alt="rating" />
+                      <img src="images/star.svg" alt="rating" />
+                    </div>
+                  </div>
+                  <p class="help__block">
+                    Услуга:
+                    <a href="#">ELOS-эпиляция</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="text__block">
+                <p>
+                  Elos-эпиляцию мне порекомендовала моя подруга. Я как раз
+                  хотела сходить на подобную процедуру и устранить проблему
+                  нежелательных волос в зоне бикини. Не раздумывая записалась и
+                  уже прошла курс из 12 сеансов. Эффект поразительный, кожа
+                  гладкая, я довольна. Кстати, сама процедура безболезненная,
+                  всё оборудование качественное...
+                </p>
+                <div class="text__block_info">
+                  <div class="item">
+                    <img src="images/vk.svg" alt="vk" />
+                    <a href="#">Вконтакте</a>
+                  </div>
+                  <div class="item">12 марта, 2021</div>
+                </div>
+              </div>
+              <div class="person__block">
+                <div class="img__block">
+                  <img src="images/person_1.svg" alt="" />
+                </div>
+                <div class="name__block">
+                  <div class="name__wrapper">
+                    <p class="name">Ангелина Франчук</p>
+                    <div class="rating">
+                      <img src="images/star.svg" alt="rating" />
+                      <img src="images/star.svg" alt="rating" />
+                      <img src="images/star.svg" alt="rating" />
+                      <img src="images/star.svg" alt="rating" />
+                      <img src="images/star.svg" alt="rating" />
+                    </div>
+                  </div>
+                  <p class="help__block">
+                    Услуга:
+                    <a href="#">ELOS-эпиляция</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="text__block">
+                <p>
+                  Elos-эпиляцию мне порекомендовала моя подруга. Я как раз
+                  хотела сходить на подобную процедуру и устранить проблему
+                  нежелательных волос в зоне бикини. Не раздумывая записалась и
+                  уже прошла курс из 12 сеансов. Эффект поразительный, кожа
+                  гладкая, я довольна. Кстати, сама процедура безболезненная,
+                  всё оборудование качественное...
+                </p>
+                <div class="text__block_info">
+                  <div class="item">
+                    <img src="images/vk.svg" alt="vk" />
+                    <a href="#">Вконтакте</a>
+                  </div>
+                  <div class="item">12 марта, 2021</div>
+                </div>
+              </div>
+              <div class="person__block">
+                <div class="img__block">
+                  <img src="images/person_1.svg" alt="" />
+                </div>
+                <div class="name__block">
+                  <div class="name__wrapper">
+                    <p class="name">Ангелина Франчук</p>
+                    <div class="rating">
+                      <img src="images/star.svg" alt="rating" />
+                      <img src="images/star.svg" alt="rating" />
+                      <img src="images/star.svg" alt="rating" />
+                      <img src="images/star.svg" alt="rating" />
+                      <img src="images/star.svg" alt="rating" />
+                    </div>
+                  </div>
+                  <p class="help__block">
+                    Услуга:
+                    <a href="#">ELOS-эпиляция</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="text__block">
+                <p>
+                  Elos-эпиляцию мне порекомендовала моя подруга. Я как раз
+                  хотела сходить на подобную процедуру и устранить проблему
+                  нежелательных волос в зоне бикини. Не раздумывая записалась и
+                  уже прошла курс из 12 сеансов. Эффект поразительный, кожа
+                  гладкая, я довольна. Кстати, сама процедура безболезненная,
+                  всё оборудование качественное...
+                </p>
+                <div class="text__block_info">
+                  <div class="item">
+                    <img src="images/vk.svg" alt="vk" />
+                    <a href="#">Вконтакте</a>
+                  </div>
+                  <div class="item">12 марта, 2021</div>
+                </div>
+              </div>
+              <div class="person__block">
+                <div class="img__block">
+                  <img src="images/person_1.svg" alt="" />
+                </div>
+                <div class="name__block">
+                  <div class="name__wrapper">
+                    <p class="name">Ангелина Франчук</p>
+                    <div class="rating">
+                      <img src="images/star.svg" alt="rating" />
+                      <img src="images/star.svg" alt="rating" />
+                      <img src="images/star.svg" alt="rating" />
+                      <img src="images/star.svg" alt="rating" />
+                      <img src="images/star.svg" alt="rating" />
+                    </div>
+                  </div>
+                  <p class="help__block">
+                    Услуга:
+                    <a href="#">ELOS-эпиляция</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="text__block">
+                <p>
+                  Elos-эпиляцию мне порекомендовала моя подруга. Я как раз
+                  хотела сходить на подобную процедуру и устранить проблему
+                  нежелательных волос в зоне бикини. Не раздумывая записалась и
+                  уже прошла курс из 12 сеансов. Эффект поразительный, кожа
+                  гладкая, я довольна. Кстати, сама процедура безболезненная,
+                  всё оборудование качественное...
+                </p>
+                <div class="text__block_info">
+                  <div class="item">
+                    <img src="images/vk.svg" alt="vk" />
+                    <a href="#">Вконтакте</a>
+                  </div>
+                  <div class="item">12 марта, 2021</div>
+                </div>
+              </div>
+              <div class="person__block">
+                <div class="img__block">
+                  <img src="images/person_1.svg" alt="" />
+                </div>
+                <div class="name__block">
+                  <div class="name__wrapper">
+                    <p class="name">Ангелина Франчук</p>
+                    <div class="rating">
+                      <img src="images/star.svg" alt="rating" />
+                      <img src="images/star.svg" alt="rating" />
+                      <img src="images/star.svg" alt="rating" />
+                      <img src="images/star.svg" alt="rating" />
+                      <img src="images/star.svg" alt="rating" />
+                    </div>
+                  </div>
+                  <p class="help__block">
+                    Услуга:
+                    <a href="#">ELOS-эпиляция</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="text__block">
+                <p>
+                  Elos-эпиляцию мне порекомендовала моя подруга. Я как раз
+                  хотела сходить на подобную процедуру и устранить проблему
+                  нежелательных волос в зоне бикини. Не раздумывая записалась и
+                  уже прошла курс из 12 сеансов. Эффект поразительный, кожа
+                  гладкая, я довольна. Кстати, сама процедура безболезненная,
+                  всё оборудование качественное...
+                </p>
+                <div class="text__block_info">
+                  <div class="item">
+                    <img src="images/vk.svg" alt="vk" />
+                    <a href="#">Вконтакте</a>
+                  </div>
+                  <div class="item">12 марта, 2021</div>
+                </div>
+              </div>
+              <div class="person__block">
+                <div class="img__block">
+                  <img src="images/person_1.svg" alt="" />
+                </div>
+                <div class="name__block">
+                  <div class="name__wrapper">
+                    <p class="name">Ангелина Франчук</p>
+                    <div class="rating">
+                      <img src="images/star.svg" alt="rating" />
+                      <img src="images/star.svg" alt="rating" />
+                      <img src="images/star.svg" alt="rating" />
+                      <img src="images/star.svg" alt="rating" />
+                      <img src="images/star.svg" alt="rating" />
+                    </div>
+                  </div>
+                  <p class="help__block">
+                    Услуга:
+                    <a href="#">ELOS-эпиляция</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="text__block">
+                <p>
+                  Elos-эпиляцию мне порекомендовала моя подруга. Я как раз
+                  хотела сходить на подобную процедуру и устранить проблему
+                  нежелательных волос в зоне бикини. Не раздумывая записалась и
+                  уже прошла курс из 12 сеансов. Эффект поразительный, кожа
+                  гладкая, я довольна. Кстати, сама процедура безболезненная,
+                  всё оборудование качественное...
+                </p>
+                <div class="text__block_info">
+                  <div class="item">
+                    <img src="images/vk.svg" alt="vk" />
+                    <a href="#">Вконтакте</a>
+                  </div>
+                  <div class="item">12 марта, 2021</div>
+                </div>
+              </div>
+              <div class="person__block">
+                <div class="img__block">
+                  <img src="images/person_1.svg" alt="" />
+                </div>
+                <div class="name__block">
+                  <div class="name__wrapper">
+                    <p class="name">Ангелина Франчук</p>
+                    <div class="rating">
+                      <img src="images/star.svg" alt="rating" />
+                      <img src="images/star.svg" alt="rating" />
+                      <img src="images/star.svg" alt="rating" />
+                      <img src="images/star.svg" alt="rating" />
+                      <img src="images/star.svg" alt="rating" />
+                    </div>
+                  </div>
+                  <p class="help__block">
+                    Услуга:
+                    <a href="#">ELOS-эпиляция</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <section class="form">
+        <div class="container">
+          <div class="form__wrapper">
+            <h4 class="form__title">Записаться на бесплатную консультацию</h4>
+            <form action="">
+              <div class="form__item">
+                <label for="">Ваше имя</label>
+                <input type="text" placeholder="Введите ваше имя" />
+              </div>
+              <div class="form__item">
+                <label for="">Ваш телефон</label>
+                <input type="tel" placeholder="+7 (___) ___-__-__" />
+              </div>
+              <div class="form__item">
+                <label for="">Выбрать адрес</label>
+                <select class="select" name="language">
+                  <option disabled>Не указан</option>
+                  <option value="HTML">HTML</option>
+                  <option value="JavaScript">JavaScript</option>
+                  <option value="PHP">PHP</option>
+                </select>
+              </div>
+              <div class="form__item">
+                <input type="submit" value="Записаться" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__top">
+            <div class="left">
+              <img class="header__logo" src="./images/logo.svg" alt="" />
+              <a href="#">Вакансии</a>
+              <a href="#">База знаний</a>
+            </div>
+            <div class="center">
+              <p>+7 (812) 710 00 10</p>
+              <p>8 800 707 24 50</p>
+            </div>
+            <div class="right">
+              <div class="item">
+                <img class="img" src="images/vk.svg" alt="vk" />
+                <a href="#">Вконтакте</a>
+                <div class="hidden__link">
+                  <img src="images/vk.svg" alt="vk" />
+                </div>
+              </div>
+              <div class="item">
+                <img class="img" src="images/tg.svg" alt="tg" />
+                <a href="#">Телеграм</a>
+                <div class="hidden__link">
+                  <img src="images/tg.svg" alt="tg" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <p>
+              © 2005-2022. Салоны красоты «ОЛА» Санкт-Петербург. Нажимая кнопку
+              «Записаться», вы соглашаетесь на
+              <a href="#">обработку персональных данных</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
