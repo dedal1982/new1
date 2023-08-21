@@ -2920,3 +2920,19 @@ template {
     line-height: 18px;
     margin: auto auto 32px 0;
 }
+.promotions__all{
+    max-width: 211px;
+    width: 100%;
+    display: flex;
+}
+.promotions__all-link{
+    color: 
+    #3C404B;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    position: relative;
+    align-items: center;
+    border-bottom: 1px dotted #3C404B;
+    margin-top: 28px;
+}
