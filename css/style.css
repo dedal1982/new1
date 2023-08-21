@@ -2639,7 +2639,7 @@ template {
     color: #3C404B;
     font-weight: 400;
     font-size: 15px;
-    line-height: 18px;
+    line-height: 24px;
     text-align: center;
     margin: 12px auto 40px;
 }
@@ -2776,4 +2776,56 @@ template {
     width: 24px;
     height: 24px;
     cursor: pointer;
+}
+/*promotions*/
+.promotions{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.promotions__title{
+    max-width: 453px;
+    width: 100%;
+}
+.promotions__subtitle{
+    max-width: 340px;
+    width: 100%;
+}
+.promotions__inner{
+    max-width: 1249px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.promotions__item{
+    width: 403px;
+    height: 208px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.45);
+    position: relative;
+}
+.promotions__item-text{
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    max-width: 280px;
+    width: 100%;
+}
+.promotions__item-title{
+    color: #19191C;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20.72px;
+}
+.promotions__item-subtitle{
+    color: #3C404B;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    max-width: 230px;
+    width: 100%;
+}
+.promotions__item-price{
+    position: absolute;
+    bottom: 30px;
+    left: 32px;
 }
