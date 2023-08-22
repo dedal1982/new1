@@ -3069,7 +3069,7 @@ template {
     padding-bottom: 50px;
     display: grid;
     grid-template-columns:364px 795px;
-    column-gap: 75px;
+    column-gap: 180px;
     grid-template-areas:
         "image title"
         "image texts"
@@ -3139,7 +3139,7 @@ template {
     padding-bottom: 40px;
     display: grid;
     grid-template-columns:524px 592px;
-    column-gap: 134px;
+    column-gap: 223px;
     grid-template-areas:
         "title image"
         "list image"
@@ -3238,7 +3238,7 @@ template {
     padding-top: 18px;
     padding-bottom: 25px;
     display: flex;
-    gap: 32px;
+    gap: 124px;
     align-items: center;
 }
 @media screen and (max-width: 1270px){
@@ -3304,6 +3304,10 @@ template {
     font-size: 15px;
     line-height: 18px;
     margin-bottom: 16px;
+    appearance: none;
+    background-image: url('../images1/eye-closed.svg');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 15px) center;
 }
 .invite__form-title{
     color: 
