@@ -2888,7 +2888,7 @@ template {
 }
 @media screen and (max-width: 1200px) {
   .coloring__gallery {
-    margin: 0 auto 50px;
+    margin: 28px auto;
     grid-template-columns: repeat(2, minmax(auto, 300px));
   }
 }
