@@ -414,13 +414,15 @@ template {
 .menu__banners {
     padding-bottom: 40px;
 }
+
 .scrollerWrapper {
+    display: none;
     max-width: 1245px;
     margin: 30px auto;
     overflow: hidden !important;
 }
 .scroller {
-    /* overflow-x: scroll !important; */
+    overflow-x: scroll !important;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -430,11 +432,6 @@ template {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-}
-@media screen and (max-width: 1200px){
-    .scroller{
-        overflow-x: scroll !important;
-    }
 }
 .scroller a {
     margin-right: 12px;
@@ -3104,7 +3101,7 @@ template {
 }
 @media screen and (max-width: 1270px){
     .celebration__title{
-        font-size: 24px;
+        font-size: 23px;
         line-height: 29.26px;
         text-align: center;
     }
@@ -3191,14 +3188,13 @@ template {
         gap: 12px;
     }
 }
-.season__title{
-    text-align: center;
-}
+
 @media screen and (max-width: 1270px){
     .season__title{
         font-weight: 500;
         font-size: 23px;
         line-height: 29.26px;
+        text-align: center;
     }
 }
 .season__text{
@@ -3232,4 +3228,102 @@ template {
 .season__list-icon{
     width: 16px;
     height: 21px;
+}
+
+/*invite*/
+.invite{
+
+}
+.invite__wrapper{
+    padding-top: 18px;
+    padding-bottom: 25px;
+    display: flex;
+}
+@media screen and (max-width: 1270px){
+    .invite__wrapper{
+        max-width: 600px;
+        width: 100%;
+        flex-direction: column;
+        padding: 28px 16px;
+        margin: 0 auto;
+        align-items: center;
+    }
+}
+.invite__item{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+.invite__title{
+    max-width: 803px;
+    width: 100%;
+}
+.invite__text{
+    max-width: 803px;
+    width: 100%;
+}
+@media screen and (max-width: 1270px){
+    .invite__text{
+        text-align: center;
+        font-size: 13px;
+        line-height: 18px;
+        margin-bottom: 28px;
+    }
+}
+@media screen and (max-width: 1270px){
+    .invite__text{
+        max-width: 303px;
+        width: 100%;
+    }
+}
+.invite__form{
+    width: 413px;
+    padding: 24px 20px;
+    box-shadow: 0px 0px 1px 0px #882C3C3D;
+    box-shadow: 0px 2px 6px 0px #882C3C0A;
+    box-shadow: 0px 16px 24px 0px #882C3C1F;
+    border-radius: 16px;
+}
+@media screen and (max-width: 767px){
+    .invite__form{
+        width: 343px;
+    }
+}
+.invite__form-select{
+    width: 100%;
+    background-color: #FAFAFA;
+    border-radius: 12px;
+    padding: 19.42px 16.21px;
+    border: none;
+    color: #19191C;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 16px;
+}
+.invite__form-title{
+    color: 
+    #6C768A;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 8px;
+}
+.invite__form-button{
+    color: #FFFFFF;
+    background-color: #F755A2;
+    box-shadow: 0px 14px 23px 0px #1C252C14;
+    padding: 14px 34px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 24px;
+    /* width: 373px; */
+}
+.invite__form-price{
+    color: #19191C;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20.72px;
 }
