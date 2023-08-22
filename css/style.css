@@ -3334,3 +3334,11 @@ template {
     font-size: 17px;
     line-height: 20.72px;
 }
+.about__list-hidden{
+    margin-top: 18px;
+}
+@media screen and (max-width: 1245px){
+    .about__list-hidden{
+        display: none;
+    }
+}
