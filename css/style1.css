@@ -3061,7 +3061,7 @@ template {
 }
 /*celebration*/
 .celebration{
-    
+    padding-top: 44px;
 }
 .celebration__wrapper{
     display: flex;
@@ -3137,7 +3137,7 @@ template {
 }
 /*season*/
 .season{
-
+    padding-top: 44px;
 }
 .season__wrapper{
     display: flex;
@@ -3243,7 +3243,7 @@ template {
 
 /*invite*/
 .invite{
-
+    padding-top: 44px;
 }
 .invite__wrapper{
     display: flex;
