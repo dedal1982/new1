@@ -3709,8 +3709,11 @@ template {
   line-height: 19.5px;
 }
 /*before-after*/
-.before-after__wrapper{
-  display: flex;
+.before-after__popup {
+  width: 402px;
+  height: 264px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .before-after__title{
   text-align: center;
@@ -3721,14 +3724,22 @@ template {
       margin: 28px auto;
   }
 }
-.before-after__item-img{
-  margin: 0 auto;
-  display: flex;
-  gap: 20px;
+@media screen and (max-width: 1200px){
+  .before-after__img{
+    width: 650px;
+  }
 }
 @media screen and (max-width: 1200px){
-  .before-after__item-img{
-      flex-direction: column;
-      gap: 16px;
+  .before-after__img{
+    width: 343px;
   }
+}{
+
+}
+
+
+.before-after__swiper{
+  width: 100%;
+  height: 100%;
+  padding: 0 0 60px 0 !important;
 }

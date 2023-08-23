@@ -240,23 +240,50 @@ var slider8 = new Swiper(".team__slider", {
 
 var slider9 = new Swiper(".before-after__items", {
   loop: false,
-  slidesPerView: 1,
-  spaceBetween: 0,
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+  slidesPerView: 3,
+  spaceBetween: 20,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
   },
   breakpoints: {
-    // 320: {
-    //   slidesPerView: 1.5,
-    //   spaceBetween: 10,
-    // },
-    // 710: {
-    //   slidesPerView: 3,
-    // },
-    // 1450: {
-    //   slidesPerView: 4,
-    // },
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    440: {
+      slidesPerView: 1.3,
+      spaceBetween: 20,
+    },
+    560: {
+      slidesPerView: 1.7,
+      spaceBetween: 20,
+    },
+    670: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+    },
+    730: {
+      slidesPerView: 2.3,
+      spaceBetween: 30,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 0,
+    },
+    970: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+    1200: {
+      slidesPerView: 3.5,
+      spaceBetween: 20,
+    },
+    1395: {
+      slidesPerView: 4,
+      spaceBetween: 30,
+    },
   },
 });
 
