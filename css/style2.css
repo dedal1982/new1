@@ -3545,3 +3545,136 @@ template {
         text-align: center;
     }
 }
+/*cost-of-coloring__inner*/
+.cost-of-coloring__inner{
+  max-width: 846px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  box-shadow: 0px 2px 9px 0px #7419441F;
+  border-radius: 16px;
+  padding: 36px;
+  align-items: start;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1200px){
+  .cost-of-coloring__inner{
+    padding: 24px 20px;
+    align-items: center;
+    gap: 20px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+  }
+}
+.cost-of-coloring__title{
+  color: 
+  #19191C;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29.26px;
+}
+.cost-of-coloring__link{
+  color: 
+  #6C768A;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+}
+.cost-of-coloring__link::after {
+  width: 16px;
+  height: 16px;
+  margin-left: 12px;
+}
+.cost-of-coloring__nav-list{
+  gap: 44px;
+}
+.cost-of-coloring__nav{
+  margin-top: 16px;
+  margin-bottom: 32px;
+  padding: 0;
+}
+.cost-of-coloring__form{
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 1200px){
+  .cost-of-coloring__form{
+    /* align-items: center; */
+  }
+}
+.cost-of-coloring__form-title{
+  color: 
+  #6C768A;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+}
+@media screen and (max-width: 1200px){
+  .cost-of-coloring__title{
+    text-align: center;
+  }
+}
+.invite__form-select{
+  width: 100%;
+  background-color: #FAFAFA;
+  border-radius: 12px;
+  padding: 19.42px 16.21px;
+  border: none;
+  color: #19191C;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  margin-top: 12px;
+  margin-bottom: 32px;
+  appearance: none;
+  background-image: url('../images1/eye-closed.svg');
+  background-repeat: no-repeat;
+  background-position: calc(100% - 15px) center;
+}
+@media screen and (max-width: 1200px){
+  .invite__form-select{
+    margin-top: 8px;
+    margin-bottom: 16px;
+    margin-top: 8px;
+  }
+}
+.cost-of-coloring__form-value{
+  width: 100%;
+  display: flex;
+}
+
+.cost-of-coloring__button{
+  color: #FFFFFF;
+  background-color: #F755A2;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin: 33px auto 0;
+  width: 303px;
+}
+@media screen and (max-width: 1200px){
+  .cost-of-coloring__button{
+    margin: 0 auto;
+  }
+}
+.cost-of-coloring__form-images{
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  margin-top: 12px;
+}
+@media screen and (max-width: 1200px){
+  .cost-of-coloring__image{
+    width: 220px;
+
+  }
+}
+@media screen and (max-width: 767px){
+  .cost-of-coloring__image{
+    width: 87px;
+
+  }
+}
