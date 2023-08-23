@@ -238,6 +238,28 @@ var slider8 = new Swiper(".team__slider", {
   },
 });
 
+var slider9 = new Swiper(".before-after__items", {
+  loop: false,
+  slidesPerView: 1,
+  spaceBetween: 0,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    // 320: {
+    //   slidesPerView: 1.5,
+    //   spaceBetween: 10,
+    // },
+    // 710: {
+    //   slidesPerView: 3,
+    // },
+    // 1450: {
+    //   slidesPerView: 4,
+    // },
+  },
+});
+
 $(function () {
   $(".menu__burger").on("click", function () {
     $(".menu__burger").toggleClass("menu__open");

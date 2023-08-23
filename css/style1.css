@@ -3428,3 +3428,30 @@ template {
         height: 343px;
     }
 }
+/*before-after*/
+.before-after__wrapper{
+    display: flex;
+}
+.before-after__title{
+    text-align: center;
+    margin: 40px auto 36px;
+}
+@media screen and (max-width: 1200px){
+    .before-after__title{
+        margin: 28px auto;
+    }
+}
+.before-after__item-img{
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+}
+@media screen and (max-width: 1200px){
+    .before-after__item-img{
+        flex-direction: column;
+        gap: 16px;
+    }
+}
+.before-after__swiper{
+    
+}

@@ -3688,10 +3688,47 @@ template {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  margin: 105px auto 73px;
+}
+@media screen and (max-width: 1200px){
+  .ola__inner{
+    margin: 23px 40px 51px 16px;
+
+  }
 }
 .ola-text{
   color: #95556D;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
+}
+.ola-text-span{
+  color: #5F1C35;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.5px;
+}
+/*before-after*/
+.before-after__wrapper{
+  display: flex;
+}
+.before-after__title{
+  text-align: center;
+  margin: 40px auto 36px;
+}
+@media screen and (max-width: 1200px){
+  .before-after__title{
+      margin: 28px auto;
+  }
+}
+.before-after__item-img{
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+}
+@media screen and (max-width: 1200px){
+  .before-after__item-img{
+      flex-direction: column;
+      gap: 16px;
+  }
 }
