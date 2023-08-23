@@ -2685,11 +2685,13 @@ template {
   }
 }
 /*.about__list-hidden*/
+.about__list-hidden{
+    margin: 30px auto 45px;
+    max-width: 1189px;
+}
 @media screen and (max-width: 1245px) {
   .about__list-hidden {
     display: none;
-    margin: 30px auto 45px;
-    max-width: 1189px;
   }
 }
 /*achievements*/
