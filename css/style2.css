@@ -3616,7 +3616,7 @@ template {
   }
 }
 .invite__form-select{
-  width: 100%;
+  width: 303px;
   background-color: #FAFAFA;
   border-radius: 12px;
   padding: 19.42px 16.21px;
@@ -3636,7 +3636,7 @@ template {
   .invite__form-select{
     margin-top: 8px;
     margin-bottom: 16px;
-    margin-top: 8px;
+    width: 100%;
   }
 }
 .cost-of-coloring__form-value{
