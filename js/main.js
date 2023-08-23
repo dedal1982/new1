@@ -281,7 +281,7 @@ var slider9 = new Swiper(".before-after__items", {
       spaceBetween: 20,
     },
     1395: {
-      slidesPerView: 4,
+      slidesPerView: 3,
       spaceBetween: 30,
     },
   },
