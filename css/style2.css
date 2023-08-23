@@ -3678,3 +3678,20 @@ template {
 
   }
 }
+/*ola*/
+.ola__wrapper{
+  display: flex;
+}
+.ola__inner{
+  max-width: 618px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.ola-text{
+  color: #95556D;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
