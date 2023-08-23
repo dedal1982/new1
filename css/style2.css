@@ -2880,8 +2880,13 @@ template {
 .coloring__wrapper {
   display: flex;
   flex-direction: column;
+  gap: 44px;
 }
-
+@media screen and (max-width: 1200px){
+    .coloring__wrapper{
+        gap: 0;
+    }
+}
 .coloring__gallery {
   display: grid;
   grid-template-columns: repeat(4, minmax(auto, 300px));
@@ -2911,10 +2916,22 @@ template {
 }
 .coloring__inner {
   padding-top: 40px;
-  
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+}
+@media screen and (max-width: 1200px){
+    .coloring__inner-hidden{
+        display: none;
+    }
+}
+.coloring__link{
+    color: #3c404b;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.07px;
+    border-bottom: 1px dotted #3c404b;
+    margin: 23px auto 29px;
 }
 .coloring__item {
   display: flex;
