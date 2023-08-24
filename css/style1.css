@@ -2817,14 +2817,12 @@ template {
     }
 }
 .promotions__item{
+    padding: 12px;
     display: flex;
     width: 403px;
     height: 208px;
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.45);
-    position: relative;
-    background-position: center;
-    background-size: cover;
 }
 @media screen and (max-width: 767px){
     .promotions__item{
@@ -2832,7 +2830,14 @@ template {
         height: 160px;
     }
 }
-
+.promotions__item-inner{
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+    display: flex;
+}
 @media screen and (max-width: 767px){
     .promotions__item-hidden{
         display: none;
@@ -2842,8 +2847,8 @@ template {
 
 .promotions__item-label{
     position: absolute;
-    top: 12px;
-    right: 28px;
+    top: 0px;
+    right: 16px;
     display: flex;
     gap: 4px;
 }
@@ -2858,8 +2863,8 @@ template {
     flex-direction: column;
     max-width: 260px;
     width: 100%;
-    margin-top: 32px;
-    margin-left: 32px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 @media screen and (max-width: 767px){
     .promotions__item-mobile{
@@ -2917,7 +2922,9 @@ template {
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    margin: auto auto 32px 0;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
 }
 .promotions__all{
     max-width: 211px;
