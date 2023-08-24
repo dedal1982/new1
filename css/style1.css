@@ -3415,8 +3415,14 @@ template {
 }
 @media screen and (max-width: 1200px){
     .ourworks__images{
-        flex-direction: column;
+        display: none;
     }
+}
+.ourworks__popup{
+    width: 402px;
+    height: 264px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .ourworks__image-item{
     width: 400px;
