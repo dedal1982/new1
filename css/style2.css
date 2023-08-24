@@ -462,7 +462,7 @@ template {
 .scrollerWrapper {
   display: none;
   max-width: 1245px;
-  margin: 30px auto;
+  margin: 27px auto 9px;
   overflow: hidden !important;
 }
 .scroller {
@@ -804,8 +804,7 @@ template {
   color: var(--dark-tones-heading-text, #19191c);
 }
 .trends {
-  padding-top: 55px;
-  padding-bottom: 40px;
+  
 }
 .trends__title {
   margin-bottom: 12px;
@@ -845,6 +844,15 @@ template {
   max-height: 430px;
   max-width: 340px;
   margin: 0 auto;
+}
+.trends__content{
+  padding-top: 110px;
+  padding-bottom: 40px;
+}
+@media screen and (max-width: 1200px){
+  .trends__content{
+    padding-top: 84px;
+  }
 }
 .trends__wrapper {
   overflow: hidden;
@@ -2540,8 +2548,9 @@ template {
 }
 @media screen and (max-width: 1200px) {
   .hairstyles__title {
-    font-size: 28px;
+    font-size: 27px;
     line-height: 34.13px;
+    margin: 0 auto;
   }
 }
 
@@ -2644,7 +2653,7 @@ template {
 }
 @media screen and (max-width: 1100px) {
   .hairstyles__item-button {
-    margin: 28px auto 0;
+    margin: 6px auto 0;
     flex-direction: column;
   }
 }
@@ -2706,6 +2715,7 @@ template {
   .achievements__wrapper {
     flex-direction: column;
     align-items: center;
+    gap: 20px;
   }
 }
 .achievements__item-box {
@@ -2765,7 +2775,6 @@ template {
   display: flex;
   flex-direction: column;
   padding-top: 40px;
-  padding-bottom: 40px;
   align-items: center;
 }
 .haircoloring__title {
@@ -2918,7 +2927,7 @@ template {
 }
 .coloring__inner {
   padding-top: 40px;
-  margin: 0 auto;
+  margin: 12px auto;
   display: flex;
   flex-direction: column;
 }
@@ -2986,6 +2995,12 @@ template {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 71px;
+}
+@media screen and (max-width: 1100px){
+  .price__wrapper{
+    padding-top: 0;
+  }
 }
 .price__top{
     display: flex;
@@ -3114,9 +3129,17 @@ template {
     cursor: pointer;
 }
 /*promotions*/
-.promotions{
-    padding-top: 40px;
-    padding-bottom: 40px;
+.promotions__wrapper{
+  padding-top: 84px;
+  padding-bottom: 115px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (max-width: 1100px){
+  .promotions__wrapper{
+      padding-bottom:53px;
+  }
 }
 .promotions__title{
     max-width: 453px;
@@ -3277,7 +3300,7 @@ template {
 .specialists__wrapper{
     display: flex;
     flex-direction: column;
-    padding-top: 40px;
+    padding-top: 78px;
     padding-bottom: 40px;
     display: flex;
     align-items: center;
@@ -3355,8 +3378,8 @@ template {
     background-position: center;
 }
 .bestprice__wrapper{
-    padding-top: 74px;
-    padding-bottom: 150px;
+    padding-top: 149px;
+    padding-bottom: 200px;
 }
 @media screen and (max-width: 1200px){
     .bestprice__wrapper{
@@ -3483,11 +3506,16 @@ template {
   }
 }
 .ourworks__wrapper{
-    padding-top: 40px;
+    padding-top: 85px;
     padding-bottom: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+@media screen and (max-width:1200px){
+  .ourworks__wrapper{
+    padding-top: 0;
+  }
 }
 .ourworks__title{
     text-align: center;
@@ -3557,6 +3585,11 @@ template {
   .ourworks__item{
     display: block !important;
   }
+}
+.celebration__text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
 }  
 .celebration__title{
     color: 
@@ -3718,7 +3751,7 @@ template {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  margin: 105px auto 73px;
+  margin: 182px auto 73px;
 }
 @media screen and (max-width: 1200px){
   .ola__inner{
@@ -3740,24 +3773,29 @@ template {
 }
 /*before-after*/
 .before-after__popup {
-  width: 343px;
+  width: 404px;
   background-repeat: no-repeat;
   background-position: center;
 }
+@media screen and (max-width: 1200px){
+  .before-after__popup{
+    width: 343px;
+  }
+}
 .before-after__title{
   text-align: center;
-  margin: 40px auto 36px;
+  margin: 78px auto 36px;
 }
 @media screen and (max-width: 1200px){
   .before-after__title{
       margin: 28px auto;
   }
 }
-@media screen and (max-width: 1200px){
-  .before-after__img{
-    width: 650px;
-  }
+
+.before-after__img{
+    width: 100%;
 }
+
 @media screen and (max-width: 1200px){
   .before-after__img{
     width: 343px;
