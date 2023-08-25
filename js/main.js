@@ -37,7 +37,7 @@ var slider2 = new Swiper(".services__items", {
       spaceBetween: 30,
     },
     810: {
-      slidesPerView: 2.5,
+      slidesPerView: 1,
       spaceBetween: 30,
     },
     970: {

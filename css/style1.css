@@ -684,6 +684,7 @@ template {
 .services {
     padding: 40px 0;
 }
+
 .services__title {
     margin-bottom: 36px;
 }
@@ -704,6 +705,7 @@ template {
     width: -webkit-min-content;
     width: -moz-min-content;
     width: min-content;
+    margin: 0 auto;
 }
 .services__popup {
     width: 310px;
