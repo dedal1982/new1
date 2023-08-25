@@ -246,6 +246,10 @@ var slider9 = new Swiper(".before-after__items", {
     el: ".swiper-pagination",
     clickable: true,
   },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
   breakpoints: {
     // when window width is >= 320px
     320: {

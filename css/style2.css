@@ -2780,6 +2780,39 @@ template {
   margin: 0 auto;
 }
 /*haircoloring__wrapper*/
+.haircoloring__button-prev {
+  width: 36px;
+  height: 36px;
+  border-radius: 12px;
+  background: linear-gradient(
+      0deg,
+      rgba(71, 71, 71, 0.02),
+      rgba(71, 71, 71, 0.02)
+    ),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  box-shadow: 0px 2px 9px 0px rgba(52, 83, 192, 0.12);
+  border: 0.5px solid rgba(71, 71, 71, 0.02);
+  color: rgba(25, 25, 28, 1);
+  top: 196px !important;
+  left: var(--swiper-navigation-sides-offset, -2px) !important;
+}
+.haircoloring__button-next {
+  width: 36px;
+  height: 36px;
+  border-radius: 12px;
+  background: linear-gradient(
+      0deg,
+      rgba(71, 71, 71, 0.02),
+      rgba(71, 71, 71, 0.02)
+    ),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  box-shadow: 0px 2px 9px 0px rgba(52, 83, 192, 0.12);
+  border: 0.5px solid rgba(71, 71, 71, 0.02);
+  color: rgba(25, 25, 28, 1);
+  top: 196px !important;
+  right: var(--swiper-navigation-sides-offset, 2px) !important;
+}
+
 .haircoloring__wrapper {
   display: flex;
   flex-direction: column;
