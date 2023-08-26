@@ -188,30 +188,49 @@ var slider6 = new Swiper(".news__slider", {
 
 var slider7 = new Swiper(".feedback__slider", {
   loop: false,
-  slidesPerView: 2.8,
-  spaceBetween: 10,
+  slidesPerView: 3,
+  spaceBetween: 20,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
   },
   breakpoints: {
+    // when window width is >= 320px
     320: {
       slidesPerView: 1,
+      spaceBetween: 20,
     },
-    600: {
+    440: {
       slidesPerView: 1,
+      spaceBetween: 0,
     },
-    800: {
-      slidesPerView: 1.4,
+    560: {
+      slidesPerView: 1.7,
+      spaceBetween: 0,
     },
-    1000: {
+    670: {
       slidesPerView: 2,
+      spaceBetween: 0,
     },
-    1250: {
-      slidesPerView: 2.4,
+    730: {
+      slidesPerView: 2.3,
+      spaceBetween: 30,
     },
-    1450: {
-      slidesPerView: 2.8,
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 0,
+    },
+    970: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+    1200: {
+      slidesPerView: 3.5,
+      spaceBetween: 20,
+    },
+    1395: {
+      slidesPerView: 3,
+      spaceBetween: 30,
     },
   },
 });
