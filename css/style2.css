@@ -764,6 +764,7 @@ template {
 @media screen and (max-width: 767px) {
   .services__title {
     margin-bottom: 12px;
+    margin-top: 15px;
   }
 }
 .services__subtitle {
@@ -846,6 +847,13 @@ template {
 }
 .trends__title {
   margin-bottom: 12px;
+}
+@media screen and (max-width: 767px) {
+  .trends__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29.26px;
+  }
 }
 .trends__subtitle {
   color: #3c404b;
