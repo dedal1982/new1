@@ -9,7 +9,7 @@ var slider1 = new Swiper(".header__banners", {
 var slider2 = new Swiper(".services__items", {
   loop: false,
   slidesPerView: 4,
-  spaceBetween: 30,
+  spaceBetween: 18,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -32,25 +32,13 @@ var slider2 = new Swiper(".services__items", {
       slidesPerView: 2,
       spaceBetween: 30,
     },
-    730: {
-      slidesPerView: 2.3,
-      spaceBetween: 30,
-    },
-    810: {
+    768: {
       slidesPerView: 1,
       spaceBetween: 30,
     },
-    970: {
-      slidesPerView: 3,
-      spaceBetween: 30,
-    },
-    1200: {
-      slidesPerView: 3.5,
-      spaceBetween: 20,
-    },
-    1395: {
+    1440: {
       slidesPerView: 4,
-      spaceBetween: 30,
+      spaceBetween: 18,
     },
   },
 });
