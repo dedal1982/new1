@@ -280,7 +280,7 @@ var slider9 = new Swiper(".before-after__items", {
       spaceBetween: 30,
     },
     768: {
-      slidesPerView: 2,
+      slidesPerView: 1,
       spaceBetween: 0,
     },
     970: {
