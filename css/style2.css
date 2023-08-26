@@ -810,7 +810,7 @@ template {
   margin-bottom: 36px;
 }
 .trends__descr {
-  margin-top: 40px;
+  margin-top: 27px;
   font-size: 14px;
   line-height: 21px;
   color: #3c404b;
@@ -840,7 +840,7 @@ template {
   margin: 0 auto;
 }
 .trends__content {
-  padding-top: 110px;
+  padding-top: 125px;
   padding-bottom: 40px;
 }
 @media screen and (max-width: 1200px) {
@@ -1340,7 +1340,7 @@ template {
   font-size: 24px;
   font-weight: 500;
   letter-spacing: -0.48px;
-  margin-bottom: 19px;
+  margin-bottom: 30px;
 }
 .form .form__wrapper form {
   display: -webkit-box;
@@ -1414,6 +1414,7 @@ template {
   text-align: center !important;
 }
 .map__title {
+  margin-top: 36px;
   margin-bottom: 36px;
 }
 .map__container {
@@ -3368,8 +3369,8 @@ template {
 .specialists__wrapper {
   display: flex;
   flex-direction: column;
-  padding-top: 78px;
-  padding-bottom: 40px;
+  padding-top: 34px;
+  padding-bottom: 58px;
   display: flex;
   align-items: center;
 }
