@@ -2146,6 +2146,25 @@ template {
   font-weight: 500;
   font-size: 13px;
   line-height: 18px;
+  position: relative;
+}
+.footer__icons-title::before {
+  content: "";
+  bottom: 7px;
+  left: 112px;
+  position: absolute;
+  width: 106px;
+  height: 1px;
+  background: #b8bfcc;
+}
+.footer__icons-title::after {
+  content: "";
+  bottom: 7px;
+  right: 112px;
+  position: absolute;
+  width: 106px;
+  height: 1px;
+  background: #b8bfcc;
 }
 .footer__icons-item {
   display: flex;
