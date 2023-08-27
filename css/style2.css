@@ -2957,7 +2957,7 @@ template {
   font-weight: 500;
   font-size: 32px;
   line-height: 39.01px;
-  margin: 53px auto 0;
+  margin: -5px auto 0;
 }
 @media screen and (max-width: 1250px) {
   .haircoloring__title {
@@ -3126,7 +3126,7 @@ template {
   }
 }
 .coloring__inner {
-  padding-top: 40px;
+  padding-top: 102px;
   margin: 12px auto;
   display: flex;
   flex-direction: column;
@@ -3505,7 +3505,7 @@ template {
 .specialists__wrapper {
   display: flex;
   flex-direction: column;
-  padding-top: 34px;
+  padding-top: 90px;
   padding-bottom: 58px;
   display: flex;
   align-items: center;
@@ -3716,7 +3716,7 @@ template {
   }
 }
 .ourworks__wrapper {
-  padding-top: 85px;
+  padding-top: 53px;
   padding-bottom: 40px;
   display: flex;
   flex-direction: column;
