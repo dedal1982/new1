@@ -3027,13 +3027,6 @@ template {
   line-height: 24px;
   color: #3c404b;
 }
-@media screen and (max-width: 767px) {
-  .haircoloring__text-min {
-    height: 192px; /* фиксированная высота блока */
-    overflow: hidden; /* скрываем текст, который выходит за пределы блока */
-    text-overflow: ellipsis; /* добавляем многоточие для обрезанного текста */
-  }
-}
 .haircoloring__button {
   background: #ffffff;
   box-shadow: 0px 4px 4px 0px #00000012;
@@ -3050,6 +3043,14 @@ template {
   .haircoloring__button {
     width: 100%;
   }
+}
+.haircoloring__button-mobile {
+  margin-bottom: 71px;
+}
+.haircoloring__text-mobile {
+  max-height: 192px;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .haircoloring__span {
   color: #19191c;
