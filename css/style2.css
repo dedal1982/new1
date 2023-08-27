@@ -827,8 +827,8 @@ template {
   font-size: 14px;
   line-height: 21px;
   color: #19191c;
-  padding-left: 8.5px;
-  padding-right: 8.5px;
+  max-width: 282px;
+  width: 100%;
 }
 
 .services__item-icon {
@@ -3263,6 +3263,26 @@ template {
     grid-template-columns: 344px;
   }
 }
+.coloring__gallery-hidden {
+  height: 1184px;
+  overflow: hidden;
+  position: relative;
+  padding-top: 32px;
+  row-gap: 29px;
+}
+.coloring__gallery-hidden::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 42px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+}
 .coloring__item-image {
   width: 300px;
   height: 300px;
@@ -3283,6 +3303,9 @@ template {
   .coloring__inner {
     padding-top: 0;
   }
+}
+.coloring__inner-hidden {
+  margin-bottom: -30px;
 }
 @media screen and (max-width: 1200px) {
   .coloring__inner-hidden {
@@ -3633,6 +3656,7 @@ template {
   position: absolute;
   left: 20px;
   bottom: 20px;
+  cursor: pointer;
 }
 .promotions__all {
   max-width: 211px;
@@ -3746,7 +3770,7 @@ template {
   }
 }
 .bestprice__inner {
-  max-width: 601px;
+  max-width: 697px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -3817,8 +3841,8 @@ template {
   width: 274px;
   height: 266px;
   position: absolute;
-  right: -75px;
-  top: -40px;
+  right: 10px;
+  top: -32px;
   background-image: url("../images1/bgpink.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -3872,7 +3896,7 @@ template {
   }
 }
 .ourworks__wrapper {
-  padding-top: 53px;
+  padding-top: 77px;
   padding-bottom: 40px;
   display: flex;
   flex-direction: column;
