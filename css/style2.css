@@ -2111,6 +2111,7 @@ template {
   padding-top: 19.42px;
   padding-left: 16.21px;
   padding-bottom: 18.58px;
+  background-color: transparent;
 }
 .footer__form-input:focus::placeholder {
   color: transparent;
