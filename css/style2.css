@@ -2178,6 +2178,8 @@ template {
   height: 48px;
   border: 1px solid #b8bfcc54;
   border-radius: 44px;
+  text-decoration: none !important;
+  border: none !important;
 }
 
 .footer .footer__wrapper {
