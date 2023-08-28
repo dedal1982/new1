@@ -707,7 +707,7 @@ template {
   @media screen and (max-width: 767px) {
     .services__title {
       margin-bottom: 12px;
-      margin-top: 15px;
+      margin-top: 0;
     }
   }
   .services__subtitle {
@@ -790,8 +790,20 @@ template {
     padding-top: 81px;
     padding-bottom: 40px;
 }
+@media screen and (max-width: 767px){
+    .trends{
+        padding-top: 61px;
+    }
+}
 .trends__title {
     margin-bottom: 12px;
+}
+@media screen and (max-width: 767px){
+    .trends__title{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29.26px;
+    }
 }
 .trends__subtitle {
     color: #3c404b;
@@ -809,6 +821,18 @@ template {
     margin-left: auto;
     margin-right: auto;
 }
+@media screen and (max-width: 767px) {
+    .trends__descr-item {
+      max-height: 63px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      margin-bottom: 84px;
+      max-width: 343px;
+    }
+    .trends__descr {
+      margin: 0;
+    }
+  }
 .trends__descr+.trends__descr {
     margin-top: 0;
     margin-bottom: 30px;
@@ -1321,6 +1345,7 @@ template {
     padding-bottom: 55px;
   }
   .form .form__wrapper {
+    box-sizing: border-box;
     max-width: 1248px;
     margin: 0 auto;
     border-radius: 16px;
@@ -1332,7 +1357,7 @@ template {
     );
     -webkit-box-shadow: 0px 8px 10px 0px rgba(99, 73, 186, 0.23);
     box-shadow: 0px 8px 10px 0px #6349ba3b;
-    padding: 19px 32px 29px 32px;
+    padding: 32px 32px 29px 32px;
   }
   @media screen and (max-width: 1200px) {
     .form__wrapper {
@@ -1353,7 +1378,7 @@ template {
     font-size: 24px;
     font-weight: 500;
     letter-spacing: -0.48px;
-    margin-bottom: 30px;
+    margin-bottom: 18px;
     line-height: 29.26px;
   }
   @media screen and (max-width: 1200px) {
@@ -2803,7 +2828,7 @@ template {
 }
 @media screen and (max-width: 1200px){
     .hairstyles__text{
-        font-weight: 15;
+        font-size: 15px;
         line-height: 24px;
         text-align: left;
     }
@@ -2850,7 +2875,7 @@ template {
 }
 @media screen and (max-width: 1100px){
     .hairstyles__button{
-        margin: 28px auto 0;
+        margin: 26px auto 0;
         width: 343px;
         padding: 19px 16.5px;
     }
@@ -2869,6 +2894,8 @@ template {
     .achievements__wrapper{
         flex-direction: column;
         align-items: center;
+        gap: 18px;
+        margin: 0;
     }
 }
 .achievements__item-box{
@@ -3226,6 +3253,7 @@ template {
     width: 100%;
     display: flex;
 }
+
 .promotions__all-link{
     color: 
     #3C404B;
@@ -3387,7 +3415,7 @@ template {
         margin: 0 auto;
         max-width: 600px;
         row-gap: 28px;
-        padding: 28px 0 12px 0;
+        padding: 4px 0 12px 0;
         grid-template-columns: 1fr;
         grid-template-areas:
         "title"
@@ -3423,7 +3451,7 @@ template {
     .celebration__item-text{
         max-width: 317px;
         width: 100%;
-        margin: 0 auto;
+        margin: 18px auto 0;
     }
 }
 
@@ -3445,6 +3473,11 @@ template {
     display: flex;
     padding-top: 40px;
     padding-bottom: 40px;
+}
+@media screen and (max-width: 768px){
+    .season__wrapper{
+        padding-top: 0;
+    }
 }
 .season__inner{
     margin: 0 auto;
@@ -3547,6 +3580,11 @@ template {
 .invite{
     padding-top: 44px;
 }
+@media screen and (max-width: 767px){
+    .invite{
+        padding-top: 24px;
+    }
+}
 .invite__wrapper{
     display: flex;
 }
@@ -3610,6 +3648,7 @@ template {
 @media screen and (max-width: 767px){
     .invite__form{
         width: 343px;
+        padding: 18px 20px;
     }
 }
 .invite__form-select{
@@ -3798,7 +3837,7 @@ template {
   }
   @media screen and (max-width: 1200px) {
     .before-after__title {
-      margin: 28px auto;
+      margin: 91px auto 27px;
     }
   }
   .before-after__items {
