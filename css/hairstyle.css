@@ -733,7 +733,7 @@ template {
   }
   .services__items {
     max-width: 1248px !important;
-    padding-bottom: 41px !important;
+    padding-bottom: 60px !important;
   }
   @media screen and (max-width: 768px) {
     .services__items {
@@ -770,8 +770,8 @@ template {
     font-size: 14px;
     line-height: 21px;
     color: #19191c;
-    padding-left: 8.5px;
-    padding-right: 8.5px;
+    max-width: 282px;
+    width: 100%;
   }
   
   .services__item-icon {
@@ -3629,8 +3629,23 @@ template {
     border-radius: 12px;
     cursor: pointer;
     margin-top: 24px;
-    width: 373px;
+    max-width: 373px;
+    width: 100%;
     height: 56px;
+}
+@media screen and (max-width: 767px){
+    .invite__form-button{
+        display: none;
+    }
+}
+.invite__form-button-hidden{
+    display: none;
+}
+@media screen and (max-width: 767px){
+    .invite__form-button-hidden{
+        display: block;
+    }
+    
 }
 .invite__form-price{
     color: #19191C;
@@ -3647,80 +3662,119 @@ template {
     }
 }
 /*ourworks*/
-.ourworks{
-
-}
-.ourworks__wrapper{
-    padding-top: 72px;
+.ourworks__popup {
+    width: 343px;
+    height: 343px;
+    background-repeat: no-repeat;
+  }
+  .haircoloring__item-hidden {
+    display: none !important;
+  }
+  @media screen and (max-width: 767px) {
+    .haircoloring__item-hidden {
+      display: block !important;
+    }
+  }
+  .ourworks__swiper {
+    width: 100%;
+    height: 100%;
+    padding: 0 !important;
+  }
+  .ourworks__item {
+    display: none;
+  }
+  @media screen and (max-width: 1200px) {
+    .ourworks__item {
+      display: block;
+      margin-top: 28px;
+    }
+    .ourworks__img {
+      width: 100%;
+    }
+  }
+  .ourworks__wrapper {
+    padding-top: 77px;
     padding-bottom: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.ourworks__title{
+  }
+  @media screen and (max-width: 1200px) {
+    .ourworks__wrapper {
+      padding-top: 46px;
+    }
+  }
+  .ourworks__title {
     text-align: center;
-}
-.ourworks__subtitle{
+  }
+  .ourworks__subtitle {
     margin-top: 12px;
-}
-.ourworks__tabs{
+  }
+  .ourworks__tabs {
     display: flex;
     justify-content: space-between;
     gap: 12px;
-}
-.ourworks__tabs-item{
+  }
+  .ourworks__tabs-item {
     text-align: center;
     width: 102px;
     padding: 15px 23px;
-    box-shadow: 0px 2px 5px 0px #0000000D;
-    color: #19191C;
+    box-shadow: 0px 2px 5px 0px #0000000d;
+    color: #19191c;
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;
     border-radius: 8px;
-    border:  1px solid #FFFFFF;
-    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),linear-gradient(0deg, rgba(255, 255, 255, 0.67), rgba(255, 255, 255, 0.67));
-}
-@media screen and (max-width: 767px){
-    .ourworks__tabs-item{
-        width: 108px;
-        padding: 12px 28px;
+    border: 1px solid #ffffff;
+    background: linear-gradient(0deg, #ffffff, #ffffff),
+      linear-gradient(0deg, rgba(255, 255, 255, 0.67), rgba(255, 255, 255, 0.67));
+  }
+  @media screen and (max-width: 767px) {
+    .ourworks__tabs-item {
+      width: 108px;
+      padding: 12px 28px;
     }
-}
-
-.ourworks__tabs-item.active{
-    background: linear-gradient(0deg, #FFF3F9, #FFF3F9),linear-gradient(0deg, #FFFFFF, #FFFFFF);
-    color: #92276E;
-}
-.ourworks__images{
+  }
+  
+  .ourworks__tabs-item.active {
+    background: linear-gradient(0deg, #fff3f9, #fff3f9),
+      linear-gradient(0deg, #ffffff, #ffffff);
+    color: #92276e;
+  }
+  .ourworks__images {
     align-items: center;
     max-width: 1240px;
     width: 100%;
     display: flex;
     margin-top: 35px;
     justify-content: space-between;
-}
-@media screen and (max-width: 1200px){
-    .ourworks__images{
-        display: none;
+  }
+  @media screen and (max-width: 1200px) {
+    .ourworks__images {
+      display: none;
     }
-}
-.ourworks__popup{
-    width: 402px;
-    height: 264px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.ourworks__image-item{
+  }
+  .ourworks__image-item {
     width: 400px;
     height: 400px;
-}
-@media screen and (max-width: 767px){
-    .ourworks__image-item{
-        width: 343px;
-        height: 343px;
+  }
+  @media screen and (max-width: 767px) {
+    .ourworks__image-item {
+      width: 343px;
+      height: 343px;
     }
-}
+  }
+  .ourworks__wrapper {
+    margin-bottom: 28px;
+  }
+  .ourworks__item {
+    display: none !important;
+  }
+  @media screen and (max-width: 1200px) {
+    .ourworks__item {
+      display: block !important;
+    }
+  }
 /*before-after*/
 .before-after__title {
     text-align: center;
