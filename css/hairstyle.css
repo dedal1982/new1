@@ -2091,7 +2091,8 @@ template {
   }
   
   .footer .footer__wrapper {
-    padding-top: 41px;
+    max-width: 1248px;
+    margin: 0 auto;
     padding-bottom: 41px;
     border-top: 1px solid #ece9f0;
   }
