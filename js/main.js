@@ -175,7 +175,7 @@ var slider6 = new Swiper(".news__slider", {
 });
 
 var slider7 = new Swiper(".feedback__slider", {
-  loop: false,
+  loop: true,
   slidesPerView: 3,
   spaceBetween: 20,
   pagination: {

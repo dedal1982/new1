@@ -1300,16 +1300,16 @@ template {
   content: url("../images/prev-arrow.svg") !important;
 }
 .team {
-    padding-top: 55px;
-    padding-bottom: 55px;
+  padding-top: 55px;
+  padding-bottom: 55px;
 }
 .team__title {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 .team .team__slider {
-    height: 90px;
-    padding-left: 60px;
-    padding-right: 30px;
+  height: 90px;
+  padding-left: 60px;
+  padding-right: 30px;
 }
 .form {
     padding-top: 55px;
@@ -2526,9 +2526,7 @@ template {
 .feedback .feedback__topBlock .topBlock__item:nth-last-child(1) a {
     padding: 12px 85px;
 }
-.feedback .feedback__slider {
-    padding-left: 35px;
-}
+
 .team__slider .swiper-button-next, .team__slider .swiper-button-prev {
     display: none;
 }
