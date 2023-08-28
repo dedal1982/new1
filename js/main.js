@@ -175,7 +175,7 @@ var slider6 = new Swiper(".news__slider", {
 });
 
 var slider7 = new Swiper(".feedback__slider", {
-  loop: true,
+  loop: false,
   slidesPerView: 3,
   spaceBetween: 20,
   pagination: {
@@ -193,19 +193,19 @@ var slider7 = new Swiper(".feedback__slider", {
       spaceBetween: 0,
     },
     560: {
-      slidesPerView: 1.7,
+      slidesPerView: 1,
       spaceBetween: 0,
     },
     670: {
-      slidesPerView: 2,
+      slidesPerView: 1,
       spaceBetween: 0,
     },
     730: {
-      slidesPerView: 2.3,
+      slidesPerView: 1,
       spaceBetween: 30,
     },
     768: {
-      slidesPerView: 2,
+      slidesPerView: 1,
       spaceBetween: 0,
     },
     970: {
