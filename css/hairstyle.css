@@ -826,7 +826,7 @@ template {
       max-height: 63px;
       text-overflow: ellipsis;
       overflow: hidden;
-      margin-bottom: 84px;
+      margin-bottom: 62px;
       max-width: 343px;
     }
     .trends__descr {
@@ -1371,6 +1371,12 @@ template {
     .form__title-mobile {
       display: block;
       text-align: center;
+    }
+  }
+  @media screen and (max-width: 767px){
+    .form{
+        padding-top: 0;
+        padding-bottom: 0;
     }
   }
   .form .form__wrapper .form__title {
@@ -2020,6 +2026,12 @@ template {
     .footer__form-inner {
       max-width: 600px !important;
       width: 100%;
+    }
+  }
+  @media screen and (max-width: 1100px){
+    .footer__form{
+        padding-top: 0;
+        padding-bottom: 27px;
     }
   }
   .footer__form-title {
@@ -2933,6 +2945,11 @@ template {
     padding-top: 86px;
     padding-bottom: 40px;
 }
+@media screen and (max-width: 767px){
+    .price{
+        padding-top: 48px;     
+    }
+}
 @media screen and (max-width: 1100px){
     .price__title{
         font-size: 24px;
@@ -3276,6 +3293,11 @@ template {
     background-size: cover;
     background-attachment: scroll;
     background-position: center;
+}
+@media screen and (max-width: 767px){
+    .interesting{
+        padding-bottom: 0;
+    }
 }
 .interesting__inner{
     display: flex;
