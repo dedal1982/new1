@@ -2212,6 +2212,8 @@ template {
   padding-top: 41px;
   padding-bottom: 41px;
   border-top: 1px solid #ece9f0;
+  max-width: 1248px;
+  margin: 0 auto;
 }
 @media screen and (max-width: 1100px) {
   .footer__wrapper-hidden {
