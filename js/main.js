@@ -157,13 +157,13 @@ var slider6 = new Swiper(".news__slider", {
   },
   breakpoints: {
     320: {
-      slidesPerView: 1.2,
+      slidesPerView: 1,
     },
     600: {
-      slidesPerView: 2,
+      slidesPerView: 1,
     },
     800: {
-      slidesPerView: 3,
+      slidesPerView: 1,
     },
     1000: {
       slidesPerView: 3.4,
