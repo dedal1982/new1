@@ -1148,7 +1148,25 @@ template {
   margin-top: 10px;
 }
 .feedback {
+}
+.feedback__wrapper {
   padding: 55px 0 55px 0;
+}
+@media screen and (max-width: 1100px) {
+  .feedback__wrapper {
+    padding-top: 0;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .feedback__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #19191c;
+  }
+}
+.feedback__swiper-wrapper {
+  padding-bottom: 60px !important;
 }
 .feedback__topBlock {
   max-width: 508px;
@@ -1190,12 +1208,12 @@ template {
   gap: 4px;
 }
 .feedback__topBlock .topBlock__item:nth-last-child(1) a {
-  color: #9386fe;
+  color: #f755a2;
   font-size: 15px;
   line-height: 18px;
   letter-spacing: 0.3px;
   border-radius: 8px;
-  background: #f4f2ff;
+  background: #fff5fa;
   font-weight: 400;
   padding: 12px 24px;
   opacity: 0.85;
@@ -1221,7 +1239,23 @@ template {
   font-weight: 400;
 }
 .feedback__slider {
-  padding-left: 100px;
+  max-width: 1248px !important;
+  width: 100% !important;
+}
+@media screen and (max-width: 767px) {
+  .feedback__slider {
+    max-width: 330px !important;
+    margin-top: 46px;
+    padding-bottom: 14px;
+  }
+}
+.feedback__swiper-slide {
+  width: 465px !important;
+}
+@media screen and (max-width: 767px) {
+  .feedback__swiper-slide {
+    width: 330px !important;
+  }
 }
 .feedback__swiper {
   padding: 0 0 60px 0 !important;
@@ -1234,6 +1268,19 @@ template {
   color: #3c404b;
   font-size: 15px;
   line-height: 24px;
+  width: 465px;
+}
+@media screen and (max-width: 767px) {
+  .feedback .text__block {
+    border-radius: 16px;
+    background: #fff;
+    padding: 16px 20px 20px 20px;
+    margin-bottom: 25px;
+    color: #3c404b;
+    font-size: 15px;
+    line-height: 24px;
+    width: 100% !important;
+  }
 }
 .feedback .text__block .text__block_info {
   display: -webkit-box;
@@ -1302,6 +1349,12 @@ template {
 }
 .feedback .person__block .name__block .help__block a:hover {
   border-bottom: 1px dotted #6652ff;
+}
+.swiper-button-next:after {
+  content: url("../images/next-arrow.svg") !important;
+}
+.swiper-button-prev:after {
+  content: url("../images/prev-arrow.svg") !important;
 }
 .swiper-button-next:after {
   content: url("../images/next-arrow.svg") !important;
@@ -2371,6 +2424,11 @@ template {
   }
   .feedback .feedback__slider {
     padding-left: 35px;
+  }
+  @media screen and (max-width: 768px) {
+    .feedback .feedback__slider {
+      padding-left: 0;
+    }
   }
   .team__slider .swiper-button-next,
   .team__slider .swiper-button-prev {
